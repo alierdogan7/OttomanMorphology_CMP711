@@ -1,0 +1,699 @@
+## kliselesmis eklerin osmanlica yazilislari
+
+dır | در 
+dir | در 
+dur | در 
+dür | در 
+tır | در 
+tir | در 
+tur | در 
+tür | در 
+tırıl | ديريل
+tiril | ديريل
+turul | ديريل
+türül | ديريل
+
+dırmak | ديرمق 
+dirmek | ديرمك 
+durmak | ديرمق 
+dürmek | ديرمك 
+tırmak | ديرمق 
+tirmek | ديرمك 
+turmak | ديرمق 
+türmek | ديرمك 
+
+cak | جق 
+cık | جق 
+cuk | جق 
+
+cik | جك 
+cük | جك 
+cek | جك 
+
+sız | سز 
+siz | سز 
+suz | سز 
+süz | سز 
+
+cağız | جغز 
+ceğiz | جگز 
+
+arak | ارق 
+erek | ه رك
+yarak | يارق 
+yerek | يه رك 
+
+ınca | نجه
+ince | نجه
+unca | نجه
+ünce | نجه
+yınca | ينجه
+yince | ينجه
+yunca | ينجه
+yünce | ينجه
+
+cağı | جغی
+ceği | جكی
+cuğu | جغی
+cüğü | جكی
+yacağı | ياجغی
+yeceği | ياجكی
+yucuğu | ياجغی
+yücüğü | ياجكی
+
+cağını | جغنی
+ceğini | جكنی
+cuğunu | جغنی
+cüğünü | جكنی
+yacağını | ياجغنی
+yeceğini | ياجكنی
+yucuğunu | ياجغنی
+yücüğünü | ياجكنی
+
+cığım | جغم
+ciğim | جگم
+cuğum | جغم
+cüğüm | جگم
+
+ğım | غم
+ğim | غم
+ğum | غم
+ğüm | غم
+
+ğın | غڭ
+ğin | غڭ
+ğun | غڭ
+ğün | غڭ
+
+lığı | لغی
+liği | لغی
+luğu | لغی
+lüğü | لغی
+
+lıyız | لی يز
+liyiz | لی يز
+luyuz | لی يز
+lüyüz | لی يز
+
+# soru ekleri - bunlar ayri yazilirlar, dolayisiyla buraya ait degildirler
+mı | مي  
+mi | مي
+mu | مي 
+mü | مي
+
+# baglac eki - bu da ayri yazilir buraya ait degildir
+ki | كه
+daki | داكی 
+deki | ده كی 
+
+imki | مكى 
+inki | ڭكى 
+unki | ڭكى 
+ınki | ڭكى 
+
+# Kafi nun-i nin kullanildigi mulkiyet eklerinden "nin"
+nin | نڭ 
+nın | نڭ
+
+de | ده
+da | ده
+te | ده
+ta | ده
+
+den | دن
+dan | دن
+ten | دن
+tan | دن
+
+inden | ندن
+ından | ندن
+undan | ندن
+ünden | ندن
+
+inde | نده
+ında | نده
+unda | نده
+ünde | نده
+
+nde | نده
+nda | نده
+nda | نده
+nde | نده
+
+sinde | سنده
+sında | سنده
+sunda | سنده
+sünde | سنده
+
+sinden | سندن
+sından | سندن
+sundan | سندن
+sünden | سندن
+
+leriyle | لريله
+larıyla | لريله
+
+iyle | يله
+iyle | يله
+
+
+ce | جه
+ca | جه
+çe | جه
+ça | جه
+
+lık | لق
+lik | لك
+luk | لق
+lük | لك
+
+cı | جی
+ci | جی
+cu | جی
+cü | جی
+çı | جی
+çi | جی
+çu | جی
+çü | جی
+
+cını | جنی
+cini | جنی
+cunu | جنی
+cünü | جنی
+
+lı | لی
+li | لی
+lu | لی
+lü | لی
+
+la | لا
+le | له
+laş | لاش
+leş | لش
+lan | لان
+len | لن
+
+mak | مق
+mek | مك
+
+mız | مز
+miz | مز
+muz | مز
+müz | مز
+
+nız | ڭز
+niz | ڭز
+nuz | ڭز
+nüz | ڭز
+
+ıp | وب
+ip | وب
+up | وب
+üp | وب
+
+an | ان 
+en | ن  
+
+#ış | ش
+#iş | ش
+uş | وش
+üş | وش
+#yış | يش
+#yiş | يش
+yuş | يوش
+yüş | يوش
+
+dığı | ديغی 
+madığı | مديغی 
+diği | ديگی 
+mediği | مديگی 
+duğu | ديغی 
+düğü | ديگی 
+tığı | ديغی 
+tiği | ديگی 
+tuğu | ديغی  
+tüğü | ديگی 
+
+# kod icerisinde check var. Kendinden once sesli harf varsa araya elif yada he gelir
+medik | مدك
+madık | مدق
+
+dığını | ديغنی 
+madığını | مديغنی 
+diğini | ديگی 
+mediğini | مديگی 
+duğunu | ديغنی 
+düğünü | ديگنی 
+tığını | ديغنی 
+tiğini | ديگنی 
+tuğunu | ديغنی  
+tüğünü | ديگنی 
+
+dığ | ديغ 
+madığ | مديغ 
+diğ | ديگ
+mediğ | مديگ
+duğ | ديغ
+düğ | ديگ
+tığ | ديغ
+tiğ | ديگ
+tuğ | ديغ
+tüğ | ديگ
+
+dığında | ديغنده 
+madığında | مديغنده 
+diğinde | ديگنده 
+mediğinde | مديگنده 
+duğunda | ديغنده 
+düğünde | ديگنده 
+tığında | ديغنده  
+tiğinde | ديگنده 
+tuğunda | ديغنده 
+tüğünde | ديگنده 
+
+gah | گاه
+
+# zaman kipleri
+
+# sımdıkı zaman
+
+ıyorum | ييورم
+iyorum | ييورم
+uyorum | ويورم
+üyorum | ويورم 
+
+ıyorsun | ييورسڭ
+iyorsun | ييورسڭ
+uyorsun | ويورسڭ
+üyorsun | ويورسڭ
+
+ıyor | ييور
+iyor | ييور
+uyor | ويور
+üyor | ويور 
+
+ıyoruz | ييورز
+iyoruz | ييورز
+uyoruz | ويورز
+üyoruz | ويورز
+
+ıyorsunuz | ييورسڭز
+iyorsunuz | ييورسڭز
+uyorsunuz | ويورسڭز
+üyorsunuz | ويورسڭز
+
+ıyorlar | ييورلر
+iyorlar | ييورلر
+uyorlar | ويورلر
+üyorlar | ويورلر
+
+
+# genıs zaman
+
+ırım | يرم
+irim | يرم
+arım |  ارم
+erim |  ه رم
+ürüm |  ورم
+urum |  ورم
+
+ırsın | يرسڭ
+irsin | يرسڭ
+arsın | ارسڭ
+ersin | ه رسڭ
+ürsün | يرسڭ
+ursun | يرسڭ
+
+ırız | يرز
+iriz | يرز
+arız | ارز
+eriz | ه رز
+ürüz | يرز
+uruz | يرز
+
+ırsınız | يرسڭز
+irsiniz | يرسڭز
+arsınız | ارسڭز
+ersiniz | ه رسڭز
+ürsünüz | يرسڭز
+ursunuz | يرسڭز
+
+ırlar | يرلر
+irler | يرلر
+arlar | ارلر
+erler | ه رلر
+ürler | ورلر
+urlar | ورلر
+
+# Gelecel zaman
+
+acağım | اجغم
+eceğim | ه جگم
+yacağım | ياجغم
+yeceğim | يه جگم
+
+acaksın | اجقسڭ
+eceksin | ه جكسڭ
+yacaksın | يا جقسڭ
+yeceksin | يه جكسڭ
+
+acak | اجق
+ecek | ه جك
+yacak | ياجق
+yecek | يه جك
+
+acağız | اجغز
+eceğiz |  ه جگز
+yacağız | ياجغز
+yeceğiz | يه جگز
+
+acaksınız |  اجقسڭز
+eceksiniz | ه جكسڭز
+yacaksınız | ياجقسڭز
+yeceksiniz | يه جكسڭز
+
+acaklar | اجقلر
+ecekler | ه جكلر
+yacaklar | ياجقلر
+yecekler | يه جكلر
+
+ğimize | گمزه 
+ğımıza | گمزه
+ğumuza | گمزه
+ğümüze | گمزه
+ 
+ğinize | گنزه
+ğınıza | گنزه
+ğunuza | گنزه
+ğünüze | گنزه
+
+ğine | گنه
+ğına | گنه
+ğuna | گنه
+ğüne | گنه
+
+
+acağı | اجغی
+eceği | ه جگی
+yacağı | ياجغی
+yeceği | يه جگی
+
+# gorulen gecmıs yaman
+
+dım | دم 
+dim | دم
+dum | دم
+düm | دم
+tım | دم
+tim | دم
+tum | دم
+tüm | دم
+
+dın | دڭ 
+din | دڭ
+dun | دڭ
+dün | دڭ
+tın | دڭ
+tin | دڭ
+tun | دڭ
+tün | دڭ
+
+dık | دق 
+dik | دك
+duk | دق
+dük | دك
+tık | دق
+tik | دك
+tuk | دق
+tük | دك
+
+dınız | ديڭز 
+diniz | ديڭز
+dunuz | ديڭز
+dünüz | ديڭز
+tınız | ديڭز
+tiniz | ديڭز
+tunuz | ديڭز
+tünüz | ديڭز
+ttınız | تديڭز
+ttiniz | تديڭز
+
+dılar | ديلر
+diler | ديلر
+dular | ديلر
+düler | ديلر
+tılar | ديلر
+tiler | ديلر
+tular | ديلر
+tüler | ديلر
+
+# duyulan gecmıs zaman
+
+mışım | مشم
+mişim | مشم
+muşum | مشم  
+müşüm | مشم
+
+mışsın | مشسڭ
+mişsin | مشسڭ
+muşsun | مشسڭ
+müşsün | مشسڭ
+
+mış | مش
+miş | مش
+muş | مش
+müş | مش
+
+mışız | مشز
+mişiz | مشز
+muşuz | مشز
+müşüz | مشز
+
+mışsınız | مشسڭز
+mişsiniz | مشسڭز
+muşsunuz | مشسڭز
+müşsünüz | مشسڭز
+
+mışlar | مشلر
+mişler | مشلر
+muşlar | مشلر
+müşler | مشلر
+
+tı | دی
+ti | دی
+tu | دی
+tü | دی
+
+# dılek sart kosul
+sam | سه م
+sem | سه م
+
+san | سه ڭ
+sen | سه ڭ
+
+sa  | سه 
+se  | سه 
+
+sek  | سه ك
+sak  | سه ق
+
+sanız  | سه ڭز
+seniz  | سه ڭز
+
+salar  | سه لر
+seler  | سه لر
+
+
+# ıstek
+
+yım | يم
+yim | يم
+yum | يم
+yüm | يم
+
+sın | سڭ
+sin | سڭ
+sun | سڭ
+sün | سڭ
+
+lım | لم
+lim | لم
+lum | لم
+lüm | لم
+
+sınız | سڭز
+siniz | سڭز
+sunuz | سڭز
+sünüz | سڭز
+
+lar | لر 
+ler | لر 
+#lir | لر
+#lor | لر
+
+lerine | لرينه
+larına | لرينه
+
+# gereklılık
+
+meliyim | مليم
+malıyım | مليم
+
+melisin | مليسڭ
+malısın | مليسڭ
+
+meli | ملی
+malı | ملی
+
+meyi | مه يی
+mayı | مه يی
+
+meliyiz | ملی يز
+malıyız | ملی يز
+
+melisiniz | مليسڭز
+malısınız | مليسڭز
+
+medi | مدی
+madı | مدی
+
+meyiz | میز
+mayız | میز
+
+mediniz | مدیڭز
+madınız | مدیڭز
+
+mesi | مسی
+ması | مسی 
+nmesi | نمسی
+nması | نمسی 
+lmesi | لمسی
+lması | لمسی 
+
+# emır buyruk
+# burada bul bulsun mesela 3. tekil sahıs ıcın Nun kullanılır
+# 2. tekıl sahıs ıcın Kafı Nunı kullanılır bunu kod ıcerısınde duzenlemek lazımdır
+# eger kök sın, sin, sun, sün ise
+# ve kok fııl ve ek fiil-emir-o-sin ise nun ile yazılmalı
+
+unuz  | ڭز
+ünüz  | ڭز
+iniz  | ڭز
+ınız  | ڭز
+
+yunuz  | يڭز
+yünüz  | يڭز
+yiniz  | يڭز
+yınız  | يڭز
+
+ini | ني 
+ını | ني
+unu | ني
+ünü | ني
+
+sinler | سنلر
+sınlar | سنلر
+sunlar | سونلر
+sünler | سونلر
+
+sına | سنه
+sine | سنه
+suna | سنه
+süne | سنه  
+ına | نه
+ine | نه
+una | نه
+üne | ينه
+
+siyle | سيله
+sıyla | سيله
+
+liğini | لگنی
+lığını | لگنی
+luğunu | لگنی
+lüğünü | لگنی
+
+imiz | يمز
+ımız | يمز
+umuz | يمز 
+ümüz | يمز
+
+# bunun yukaridaki yazilisla ne farki var?
+#iniz | ينز 
+#ınız | ينز
+#unuz | ينز
+#ünüz | ينز 
+
+lığıyla | لغيله
+liğiyle | لغيله
+luğuyla | لغيله
+lüğüyle | لغيله
+
+ğıyla | غيله
+ğiyle | غيله
+ğuyla | غيله
+ğüyle | غيله
+
+ıyla | يله
+iyle | يله
+uyla | يله
+üyle | يله
+
+reddin | رالدّين 
+rettin | رالدّين
+leddin | ل‌الدین
+lettin | ل‌الدین
+seddin | س الدين
+settin | س الدين
+haddin | حالدّين
+hattin | حالدّين
+han | خان
+
+un | ڭ
+ün | ڭ
+ın | ڭ
+in | ڭ
+
+sını | سنی
+sini | سنی
+sunu | سنی
+sünü | سينی
+
+menim | منم
+manım | مانم 
+menin | منڭ
+manın | مانڭ
+ım | م
+im | م
+ın | ڭ
+in | ڭ
+
+ımına | يمنه
+ımına | يمنه
+
+um | م
+nun | نڭ 
+
+ınan | ينان 
+inen | ينن
+unan | ونان
+ünen | ونن
+
+ılan | يلان
+ilen | يلن
+ulan | ولان
+ülen | ولن
+
+ının | نڭ
+ğının | غنڭ
+
+nı | نی
+ni | نی
+nu | نی
+nü | نی
+
+meni | منی 
+
+#maya | مه يه
+#meya | مه يه
+
