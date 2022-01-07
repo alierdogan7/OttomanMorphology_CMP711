@@ -1,0 +1,205 @@
+Multichar_Symbols +P1S +P2S +P3S +P1P +P2P +P3P +Positive +Negative +Aorist +Continuous
+
+LEXICON Root
+Verb ;
+
+LEXICON Verb
+
+گيت   NegationInceDuz;
+سو   NegationInceDuz;
+گور NegationInceYuvarlak;
+سور NegationInceYuvarlak;
+آل  NegationKalinDuz;
+قال NegationKalinDuz;
+قوش  NegationKalinYuvarlak;
+اويو NegationKalinYuvarlak;
+اوقو NegationKalinYuvarlak;
+
+
+LEXICON NegationInceDuz
+
++Positive:0            TensePosInceDuz;
++Negative:0          TenseNegInceDuz;
+
+LEXICON NegationInceYuvarlak
+
++Positive:0            TensePosInceYuvarlak;
++Negative:0          TenseNegInceYuvarlak;
+
+LEXICON NegationKalinDuz
+
++Positive:0            TensePosKalinDuz;
++Negative:0          TenseNegKalinDuz;
+
+LEXICON NegationKalinYuvarlak
+
++Positive:0            TensePosKalinYuvarlak;
++Negative:0          TenseNegKalinYuvarlak;
+
+
+LEXICON TensePosInceDuz
+
++Aorist:^ر           Person;
++Continuous:^ييور       Person;
+
+LEXICON TensePosInceYuvarlak
+
++Aorist:^ور           Person;
++Continuous:^ويور       Person;
+
+LEXICON TensePosKalinDuz
+
++Aorist:^ر           Person;
++Continuous:^ييور       Person;
+
+LEXICON TensePosKalinYuvarlak
+
++Aorist:^ور           Person;
++Continuous:^ويور       Person;
+
+LEXICON TenseNegInceDuz
+
++Aorist:^مز           Person;
++Continuous:^مييور       Person;
+
+LEXICON TenseNegInceYuvarlak
+
++Aorist:^مز           Person;
++Continuous:^مييور       Person;
+
+LEXICON TenseNegKalinDuz
+
++Aorist:^ماز           Person;
++Continuous:^مييور       Person;
+
+LEXICON TenseNegKalinYuvarlak
+
++Aorist:^ماز           Person;
++Continuous:^مييور       Person;
+
+LEXICON Person
+
++P1S:^م         #;
++P2S:^سڭ        #;
++P3S:0           #;
++P1P:^ز      #;
++P2P:^سڭز    #;
++P3P:0         #;
++P3P:^لر      #;
+
+! TODO
+
+! LEXICON TensePos
+
+! +Aorist:^ر           Person;
+! +Past:^DH             PersonPast;
+! +PastP:^mHş           Person;
+! +Future:^YAcAk        Person;
+! +Continuous:^Hyor     Person;
+! +Continuous:^mAktAY	  Person;
+! +Must:^mAlI           Person;
+! +Desire:^YA           PersonPast;
+! +Condition:^sA        PersonPast;
+! +Imperative:0         PersonImp;
+! 
+! ! LEXICON TensePos
+! ! 
+! ! +Aorist:^Hr           ComTense1;
+! ! +PastP:^mHş           ComTense1;
+! ! +Future:^YAcAk        ComTense1;
+! ! +Continuous:^Hyor     ComTense1;
+! ! +Continuous:^mAktAY	  ComTense1;
+! ! +Must:^mAlIy          ComTense1;
+! ! +Past:^DHy            ComTense2;
+! ! +Condition:^sAy       ComTense3;
+! ! +Possibility:^YAbil   ComTense4;
+! ! 
+!LEXICON TenseNeg
+
+!+Aorist:^Z            PersonAor;
+! ! +Past:^DH             PersonPast;
+! ! +PastP:^mHş           Person;
+! ! +Future:^YAcAk        Person;
+! ! +Continuous:^Hyor     Person;
+! ! +Continuous:^mAktAY	  Person;
+! ! +Must:^mAlI           Person;
+! ! +Desire:^YA           PersonPast;
+! ! +Condition:^sA        PersonPast;
+! ! +Imperative:0         PersonImp;
+! ! 
+! ! LEXICON TenseNeg
+! ! 
+! ! +Aorist:^Z            ComTense1;
+! ! +PastP:^mHş           ComTense1;
+! ! +Future:^YAcAk        ComTense1;
+! ! +Continuous:^Hyor     ComTense1;
+! ! +Continuous:^mAktAY	  ComTense1;
+! ! +Must:^mAlIy          ComTense1;
+! ! +Past:^DHy            ComTense2;
+! ! +Condition:^sAy       ComTense3;
+! ! +Possibility:^YAbil   ComTense4;
+! ! 
+! ! LEXICON ComTense1
+! ! 
+! ! +Past:^DH       PersonPast;
+! ! +PastP:^mHş     Person;
+! ! +Condition:^sA  PersonPast;
+! ! 
+! ! LEXICON ComTense2
+! ! 
+! ! +Past:^DH       PersonPast;
+! ! +Condition:^sA  PersonPast;
+! ! 
+! ! LEXICON ComTense3
+! ! 
+! ! +Past:^DH       PersonPast;
+! ! +PastP:^mHş     Person;
+! ! 
+! ! LEXICON ComTense4
+! ! 
+! ! +Aorist:^Hr           Person;
+! ! +Past:^DH             PersonPast;
+! ! +PastP:^mHş           Person;
+! ! +Future:^AcAk         Person;
+! ! +Continuous:^Hyor     Person;
+! ! +Continuous:^mAktAY	  Person;
+! ! +Must:^mAlI           Person;
+! ! +Condition:^sA        PersonPast;
+! 
+! LEXICON Person
+! 
+! +1person:^Hm         #;
+! +2person:^SHn        #;
+! +3person:0           #;
+! +1personPl:^YHz      #;
+! +2personPl:^SHnHz    #;
+! +3personPl:0         #;
+! +3personPl:^lAr      #;
+! 
+! LEXICON PersonImp
+! 
+! +2person:0         #;
+! +2personPl:^YHn    #;
+! +2personPl:^YHnHz  #;
+! +3person:^sHn      #;
+! +3personPl:^sHnlAr #;
+! 
+! LEXICON PersonAor
+! 
+! 1person:^m         #;     
+! 2person:^sIn       #;
+! 3person:0          #;
+! 1personPl:^Iz      #;
+! 2personPl:^sInIz   #;
+! 3personPl:0        #;
+! 3personPl:^lAr     #;
+! 
+! LEXICON PersonPast
+! 
+! +1person:^m        #;
+! +2person:^n        #;
+! +3person:0         #;
+! +1personPl:^k      #;
+! +2personPl:^HnHz   #;
+! +3personPl:0       #;
+! +3personPl:^lAr    #;

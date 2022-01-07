@@ -1,0 +1,39 @@
+Multichar_Symbols +N +Pl +P1S +P2S +P3S +P1P +P2P +P3P
+
+LEXICON Root
+Noun ;
+
+LEXICON Noun
+
+بابا   NPluralSingular;
+كدي  NPluralSingular;
+ماصه   NPluralSingular;
+چانطه  NPluralSingular;
+كتاب  NPluralSingular;
+
+
+LEXICON NPluralSingular
+
++N:0   NPossesive;
++N+Pl:^لر  NPossesive;
+
+
+LEXICON NPossesive
+
+#;
++P1S:^م NCase; !(I)m
++P2S:^ڭ NCase; !(I)n
++P3S:^ى NCase;  !(s)I
++P1P:^مز NCase; !(I)mIz
++P2P:^ڭز NCase; !(I)nIz
++P3P:^لرى NCase; !lArI
+
+LEXICON NCase
+#;
++Acc:^ى #;  !(y)I
++Dat:^ه #;  !(y)A
++Abl:^دن #;   !DAn
++Loc:^ده #;   !DA
++Gen:^ڭ #;   !(n)In
++Inst:^له #;  !(y)lA
+

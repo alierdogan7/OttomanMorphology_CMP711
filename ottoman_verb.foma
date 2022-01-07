@@ -1,0 +1,22 @@
+define Alphabet [ ا | ب | پ | ت | ث | ج | چ | ح | خ | د | ذ | ر | ز | ژ | س | ش | ص | ض | ط | ظ | ع | غ | ف | ق | ك | گ | ڭ | ل | م | ن | و | ه | ی | ي ];
+define Vowels [ ا | ه | ى | ي | و ];
+define NonVowels [ ب | پ | ت | ث | ج | چ | ح | خ | د | ذ | ر | ز | ژ | س | ش | ص | ض | ط | ظ | ع | غ | ف | ق | ك | گ | ڭ | ل | م | ن ];
+
+! To eliminate negative aorist gelme(z)m conflict.
+define Zclear   [ م ز] -> [م] || _ "^" [م] ,, 
+                [م ا ز] -> [ م ا ] || _ "^" [م] ,,
+                [ م ز] -> [م ي] || _ "^" [ز] ,, 
+                [م ا ز] -> [م ا ي] || _ "^" [ز] ; 
+
+
+! Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+read lexc ottoman_verb.lexc
+define Lexicon
+
+define Grammar Lexicon           .o.
+               Zclear .o.
+               Cleanup        ;
+
+regex Grammar;
